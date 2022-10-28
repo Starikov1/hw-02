@@ -1,0 +1,179 @@
+:root {
+  --darkcolor: #000000;
+  --graydarkcolor: #2f303a;
+  --white: #ffffff;
+  --blue: #2196f3;
+  --footer: #2f303a;
+  --graytext: #212121;
+  --footertextbelow: #ffffff99;
+  --graytextntwo: #757575;
+  --lightbuttons: #f5f4fa;
+}
+
+.blue-logo-part {
+  color: var(--blue);
+}
+
+.buttons-center button {
+  color: var(--graytext);
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.625;
+  font-size: 16px;
+  background-color: var(--lightbuttons);
+  border: 0;
+  text-align: center;
+}
+
+.buttons-center button:hover {
+  background-color: var(--blue);
+  color: var(--white);
+  text-align: center;
+}
+
+.center-content {
+  letter-spacing: 0.03em;
+}
+
+.centeral-part-vertical {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--graytextntwo);
+  line-height: 1.875;
+}
+
+.common-upper-down {
+  font-size: 14px;
+}
+
+.feature-specifics h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--graytext);
+}
+
+.feature-specifics p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.font-adress a {
+  text-decoration: none;
+  line-height: 1.714;
+  font-style: normal;
+  display: block;
+  letter-spacing: 00.03em;
+}
+
+.font-adress-one a {
+  color: var(--white);
+}
+
+.font-adress-two a {
+  color: var(--footertextbelow);
+}
+
+.footer-logo-color {
+  color: var(--white);
+}
+
+.header-logo-color {
+  color: var(--darkcolor);
+}
+
+.h1-class {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.hover-link:hover {
+  color: var(--blue);
+}
+
+.link-of-the-upper {
+  color: var(--graytext);
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+}
+
+.label-class {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--graytext);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.one-person h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--graytext);
+}
+
+.one-person img {
+  width: 100%;
+}
+
+.one-person p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.one-cell-formatted h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--graytext);
+  line-height: 2;
+}
+
+.rigth-link-upper {
+  text-decoration: none;
+  color: var(--graytextntwo);
+  letter-spacing: 0.02em;
+}
+
+.single-button {
+  background: var(--blue);
+  color: var(--white);
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+
+.the-part-below {
+  background-color: var(--footer);
+  font-weight: 400;
+}
+
+.header {
+  background-color: var(--white);
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.upper-central-part-page-one {
+  background-color: var(--graydarkcolor);
+  letter-spacing: 0.06em;
+}
+
+.your-team {
+  background-color: var(--lightbuttons);
+}
